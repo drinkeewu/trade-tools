@@ -30,4 +30,4 @@ branches:
 
 env:
   global:
-    - GH_REF: github.com/drinkeewu/trade-tools
+    - GH_REF: github.com/drinkeewu/trade-tools.git
