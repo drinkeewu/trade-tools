@@ -21,9 +21,7 @@ after_script:
   - git config user.email "773119690@qq.com"
   - git add .
   - git commit -m "auto deploy"
-  - git checkout dev
-  - git branch -a
-  - git push --force --quiet "https://${trade_tools_token}@${GH_REF}" origin release
+  - git push --force --quiet "https://${trade_tools_token}@${GH_REF}" master:release
 
 
 branches:
