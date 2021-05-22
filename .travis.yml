@@ -21,13 +21,13 @@ after_script:
   - git config user.email "773119690@qq.com"
   - git add .
   - git commit -m "auto deploy"
-  - git branch
+  - git pull --all
   - git push --force --quiet "https://${trade_tools_token}@${GH_REF}" release
 
 
 branches:
   only:
-    - dev # 触发集成分支
+    - master # 触发集成分支
 
 env:
   global:
