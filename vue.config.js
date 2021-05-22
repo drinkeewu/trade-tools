@@ -10,5 +10,5 @@ module.exports = {
   },
   publicPath: isDev
     ? '/'
-    : '/trade-tools/dist/'
+    : '/trade-tools/'
 }
