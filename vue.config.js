@@ -1,7 +1,8 @@
 const isDev = process.env.NODE_ENV === 'development'
 module.exports = {
   devServer: {
-    overlay: false
+    overlay: false,
+    open: true
   },
   pwa: {
     name: '回报计算工具',
