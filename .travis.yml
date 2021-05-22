@@ -1,0 +1,33 @@
+language: nodejs
+
+nodejs:
+  - "12.16.2"
+
+cache:
+  directories:
+  - node_modules # 缓存npm包 
+
+before_script: 
+  - npm install
+  
+script:
+  - npm run build
+
+after_script:
+  - cp README.md ./dist
+  - cd ./dist
+  - git init
+  - git config user.name "drinkeewu"
+  - git config user.email "773119690@qq.com"
+  - git add .
+  - git commit -m "auto deploy"
+  - git push --force --quiet "https://${blog_token}@${GH_REF}" release
+
+
+branches:
+  only:
+    - main # 触发集成分支
+
+env:
+  global:
+    - GH_REF: github.com/drinkeewu/trade-tools
