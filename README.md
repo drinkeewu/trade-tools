@@ -4,6 +4,7 @@
 [Link](https://drinkeewu.github.io/trade-tools/#/)
 ## Feature
 - 回报计算
+- PWA Support
 
 ## Project setup
 ```
