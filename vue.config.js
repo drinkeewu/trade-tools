@@ -3,6 +3,11 @@ module.exports = {
   devServer: {
     overlay: false
   },
+  pwa: {
+    name: '回报计算工具',
+    themeColor: '#333',
+    msTileColor: '#ffffff'
+  },
   publicPath: isDev
     ? '/'
     : '/trade-tools/dist/'

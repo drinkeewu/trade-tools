@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trade-tools/dist/css/app.e0ccd625.css"
   },
   {
-    "revision": "34f94025994847890ef5088bd6132055",
+    "revision": "84ccc568e636efd2ad6fad429300704e",
     "url": "/trade-tools/dist/index.html"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trade-tools/dist/js/chunk-vendors.20a8b95c.js"
   },
   {
-    "revision": "3a4405539e4d401399c1319b8c8869e9",
+    "revision": "b0fc708d939df36d22c5d7ef4fa83f1a",
     "url": "/trade-tools/dist/manifest.json"
   },
   {
